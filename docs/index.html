@@ -13,15 +13,32 @@
 </head>
 <body>
     <header class="cabecalho">
-        <a href="#" class="cabecalho__link"><img src="img/Menu.svg" alt="Menu de navegação" class="cabecalho__link-icone"></a>
-        <a href="#" class="cabecalho__link"><img src="img/Logo-Branco.png" alt="Logo da MochaFrap" class="cabecalho__link-logo"></a>
-        <a href="#" class="cabecalho__link"><img src="img/Loja.svg" alt="Loja de produtos" class="cabecalho__link-icone"></a>
+        <nav class="cabecalho__mobile">
+            <a href="#" class="mobile__link"><img src="img/Menu.svg" alt="Menu de navegação" class="mobile__link-icone"></a>
+            <a href="#" class="mobile__link"><img src="img/Logo-Branco.png" alt="Logo da MochaFrap" class="mobile__link-logo"></a>
+            <a href="#" class="mobile__link"><img src="img/Loja.svg" alt="Loja de produtos" class="mobile__link-icone"></a>
+        </nav>
+        <nav class="cabecalho__responsivo">
+            <a href="#" class="responsivo__link"><img src="img/Logo-Branco.png" alt="Logo da MochaFrap" class="mobile__link-logo"></a>
+            <ul class="responsivo__lista">
+                <li class="lista__navegacao"><a href="#" class="responsivo__link">Início</a></li>
+                <li class="lista__navegacao"><a href="#" class="responsivo__link">Nossos Cafés</a></li>
+                <li class="lista__navegacao"><a href="#" class="responsivo__link">Localização</a></li>
+                <li class="lista__navegacao"><a href="#" class="responsivo__link">Fale Conosco</a></li>
+            </ul>
+        </nav>      
     </header>
 
     <main class="principal">
         <section class="banner">
-            <img src="img/Banner.jpg" alt="Cappuccino de chocolate" class="banner__imagem">
-            <p class="banner__texto">"se você não sabe por onde começar, comece pelo café..."</p>
+            <div class="banner__mobile">
+                <img src="img/Banner.jpg" alt="Cappuccino de chocolate" class="banner__mobile-imagem">
+                <p class="banner__mobile-texto">"se você não sabe por onde começar, comece pelo café..."</p>
+            </div>
+            <div class="banner__responsivo">
+                <img src="img/Banner.jpg" alt="Cappuccino de chocolate" class="banner__responsivo-imagem">
+                <p class="banner__responsivo-texto">"se você não sabe por onde começar, comece pelo café..."</p>
+            </div>
         </section>
 
         <section class="produto">

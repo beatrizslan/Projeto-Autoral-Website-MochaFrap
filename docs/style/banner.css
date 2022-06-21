@@ -1,9 +1,9 @@
-.banner__imagem {
+.banner__mobile-imagem {
     width: 100%;
     padding-bottom: 2em;
 }
 
-.banner__texto {
+.banner__mobile-texto {
     background: var(--cor-branco-transparente-1);
     text-align: center;
     line-height: 1.5;
@@ -11,4 +11,37 @@
     font-size: 14px;
     font-style: italic;
     padding: 0.5em;
+}
+
+.banner__responsivo {
+    display: none;
+}
+
+
+@media screen and (min-width: 800px) {
+
+    .banner__mobile {
+        display: none;
+    }
+
+    .banner__responsivo {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .banner__responsivo-imagem {
+        width: 50%;
+    }
+
+    .banner__responsivo-texto {
+        background: var(--cor-branco-transparente-1);
+        text-align: center;
+        line-height: 1.5;
+        letter-spacing: 1px;
+        font-size: 14px;
+        font-style: italic;
+        padding: 0.5em;
+    }
+
 }
