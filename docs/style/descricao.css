@@ -1,0 +1,21 @@
+.descricao {
+    background: var(--cor-branco-transparente-1);
+    padding: 1em;
+}
+
+.descricao__texto {
+    text-align: center;
+    font-size: 14px;
+    line-height: 1.5;
+    padding: 0.5em;
+    letter-spacing: 1px;
+}
+
+.descricao__texto  strong {
+    font-weight: 700;
+    color: var(--cor-verde);
+}
+
+.descricao__texto  em {
+    font-style: italic;
+}

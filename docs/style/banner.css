@@ -1,0 +1,14 @@
+.banner__imagem {
+    width: 100%;
+    padding-bottom: 2em;
+}
+
+.banner__texto {
+    background: var(--cor-branco-transparente-1);
+    text-align: center;
+    line-height: 1.5;
+    letter-spacing: 1px;
+    font-size: 14px;
+    font-style: italic;
+    padding: 0.5em;
+}

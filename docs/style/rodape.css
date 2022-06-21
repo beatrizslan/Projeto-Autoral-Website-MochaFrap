@@ -1,0 +1,20 @@
+.rodape {
+    background: var(--cor-verde);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3em;
+    padding: 0.6em 1em;
+}
+
+.rodape__logo {
+    width: 55px;
+}
+
+.rodape__texto {
+    color: var(--cor-branco);
+    font-size: 12px;
+    font-style: italic;
+    letter-spacing: 1px;
+    line-height: 1.5;
+}

@@ -1,0 +1,21 @@
+.cabecalho {
+    background: var(--cor-verde);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1em 0;
+}
+
+.cabecalho__link-icone {
+    width: 25px;
+}
+
+.cabecalho__link-icone:hover {
+    -moz-transform: scale(1.1);
+  	-webkit-transform: scale(1.1);
+  	transform: scale(1.1);
+}
+
+.cabecalho__link-logo {
+    width: 150px;
+}
