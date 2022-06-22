@@ -19,7 +19,7 @@
 }
 
 /*TABLETS*/
-@media screen and (min-width: 720px) {
+@media screen and (min-width: 800px) {
     .descricao {
         padding: 0 2em;
     }
@@ -30,9 +30,8 @@
 }
 
 /*DESKTOP*/
-@media screen and (min-width: 1024px) {
-    .descricao__texto {
-        font-size: 20px;
-        text-align: justify;
+@media screen and (min-width: 1200px) {
+    .descricao {
+        display: none;
     }
 }

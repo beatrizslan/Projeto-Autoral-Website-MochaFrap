@@ -18,7 +18,7 @@
 }
 
 /*TABLETS*/
-@media screen and (min-width: 720px) {
+@media screen and (min-width: 800px) {
     .rodape {
         display: flex;
         flex-direction: column;
@@ -38,7 +38,7 @@
 }
 
 /*DESKTOP*/
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1200px) {
 
     .rodape__logo {
         width: 140px;
