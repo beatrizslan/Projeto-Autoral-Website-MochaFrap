@@ -89,7 +89,7 @@
 }
 
 /*DESKTOP*/
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1024px) {
 
     .produto {
         border-top: none;
@@ -97,9 +97,8 @@
 
     .desktop {
         display: flex;
-        justify-content: space-between;
+        justify-content: space-around;
         align-items: center;
-        padding: 3em;
     }
 
     .produto__titulo-desktop {
@@ -114,7 +113,7 @@
         display: block;
         background: var(--cor-branco-transparente-1);
         padding: 1em;
-        width: 50%;
+        width: 45%;
     }
 
     .texto-desktop {
