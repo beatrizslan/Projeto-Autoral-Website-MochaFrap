@@ -5,10 +5,8 @@
 
 .descricao__texto {
     text-align: center;
-    font-size: 14px;
     line-height: 1.5;
     padding: 0.5em;
-    letter-spacing: 1px;
 }
 
 .descricao__texto  strong {
@@ -18,4 +16,23 @@
 
 .descricao__texto  em {
     font-style: italic;
+}
+
+/*TABLETS*/
+@media screen and (min-width: 720px) {
+    .descricao {
+        padding: 0 2em;
+    }
+
+    .descricao__texto {
+        font-size: 18px;
+    }
+}
+
+/*DESKTOP*/
+@media screen and (min-width: 1024px) {
+    .descricao__texto {
+        font-size: 20px;
+        text-align: justify;
+    }
 }

@@ -10,7 +10,9 @@
 	--cor-branco: #FFFFFF;
 	--cor-branco-transparente-1: #ffffff15;
 	--cor-branco-transparente-2: #fffbfb52;
-    --cor-botao: #ffffffa2;
+    --cor-sombra: #00000069;
+    --cor-botao: #7a530bc0;
+    --cor-botao-hover: #7a530b9d;
 	--cor-verde: #044926;
 	--cor-fundo:#7a530bc0;
 	--fonte-principal: "Roboto";

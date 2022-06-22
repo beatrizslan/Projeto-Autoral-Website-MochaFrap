@@ -1,16 +1,16 @@
-.banner__mobile-imagem {
+.banner-imagem {
     width: 100%;
-    padding-bottom: 2em;
+    box-shadow: 2px 2px 3px var(--cor-sombra);
 }
 
-.banner__mobile-texto {
+.banner-texto {
     background: var(--cor-branco-transparente-1);
     text-align: center;
     line-height: 1.5;
     letter-spacing: 1px;
-    font-size: 14px;
     font-style: italic;
     padding: 0.5em;
+    margin-top: 2em;
 }
 
 .banner__responsivo {
@@ -18,30 +18,67 @@
 }
 
 
-@media screen and (min-width: 800px) {
+/*TABLETS*/
+@media screen and (min-width: 720px) {
+    .banner {
+        background: var(--cor-branco-transparente-1);
+        display: flex;
+    }
 
-    .banner__mobile {
+    .banner-imagem {
+        width: 60%;
+    }
+
+    .banner-texto, .banner__responsivo-texto-desktop {
         display: none;
     }
 
     .banner__responsivo {
         display: flex;
-        align-items: center;
+        flex-direction: column;
         justify-content: center;
-    }
-
-    .banner__responsivo-imagem {
-        width: 50%;
+        gap: 1em;
+        text-align: justify;
+        padding: 1em;
     }
 
     .banner__responsivo-texto {
-        background: var(--cor-branco-transparente-1);
-        text-align: center;
         line-height: 1.5;
-        letter-spacing: 1px;
-        font-size: 14px;
-        font-style: italic;
-        padding: 0.5em;
+        font-size: 18px;
     }
 
+    .banner__responsivo-botao {
+        align-self: flex-end;
+        text-align: center;
+        text-decoration: none;
+        font-size: 18px;
+        background-color: var(--cor-botao);
+        border: 1px solid var(--cor-branco-transparente-2);
+        box-shadow: 2px 2px 3px var(--cor-sombra);
+        color: var(--cor-branco);
+        padding: 0.3em 2em;
+        width: 100px;
+    }
+
+    .banner__responsivo-botao:hover {
+        background-color: var(--cor-botao-hover);
+        color: var(--cor-branco);
+    }
+
+}
+
+/*DESKTOP*/
+@media screen and (min-width: 1024px) {
+    .banner-imagem {
+        width: 70%;
+    }
+
+    .banner__responsivo-texto-desktop {
+        display: block;
+        line-height: 1.5;
+    }
+
+    .banner__responsivo-texto, .banner__responsivo-texto-desktop, .banner__responsivo-botao {
+        font-size: 20px;
+    }
 }

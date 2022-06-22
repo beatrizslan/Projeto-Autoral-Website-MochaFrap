@@ -1,6 +1,6 @@
 .cabecalho {
     background: var(--cor-verde);
-    padding: 1em 0;
+    padding: 1.5em 0;
 }
 
 .cabecalho__mobile {
@@ -20,15 +20,16 @@
 }
 
 .mobile__link-logo {
-    width: 150px;
+    width: 130px;
 }
 
 .cabecalho__responsivo {
     display: none;
 }
 
-@media screen and (min-width: 800px) {
-
+/*TABLETS*/
+@media screen and (min-width: 720px) {
+    
     .cabecalho__mobile {
         display: none
     }
@@ -46,7 +47,39 @@
 
     .responsivo__link {
         text-decoration: none;
+        font-size: 18px;
         color: var(--cor-branco);
         letter-spacing: 1px;
+    }
+
+    .responsivo__link:hover {
+        color: var(--cor-branco-transparente-1);
+    }
+}
+
+
+/*DESKTOP*/
+@media screen and (min-width: 1024px) {
+
+    .cabecalho__mobile {
+        display: none
+    }
+
+    .cabecalho__responsivo {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .responsivo__lista {
+        display: flex;
+        gap: 3em;
+    }
+
+    .responsivo__link {
+        text-decoration: none;
+        color: var(--cor-branco);
+        letter-spacing: 1px;
+        font-size: 20px;
     }
 }
