@@ -3,5 +3,5 @@
  
  * Segue os links para acessar o código e a página do projeto:
  
-Index | [Código]() | [Site]()
+Index | [Código](https://github.com/beatrizslan/Projeto-Website-Coffee/blob/main/docs/index.html) | [Site](https://beatrizslan.github.io/Projeto-Website-Coffee/)
 ---|---|---|
