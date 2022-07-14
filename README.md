@@ -1,6 +1,6 @@
 # Autoral - Desenvolvimento do Projeto Website MochaFrap | Coffee
 
-Desenvolvimento próprio do design e codificação do projeto website [MochaFrap](https://beatrizslan.github.io/Projeto-Website-Vegan/).
+Desenvolvimento próprio do design e codificação do projeto website [MochaFrap](https://beatrizslan.github.io/Projeto-Website-Coffee/).
 
 ## Indíce
 
