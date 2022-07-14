@@ -1,6 +1,6 @@
 # Autoral - Desenvolvimento do Projeto Website MochaFrap | Coffee
 
-Desenvolvimento próprio do design e codificação do projeto website [MochaFrap](https://beatrizslan.github.io/Projeto-Website-Coffee/).
+Desenvolvimento próprio do design e codificação do projeto website [MochaFrap](https://beatrizslan.github.io/Projeto-Autoral-Website-MochaFrap/).
 
 ## Indíce
 
@@ -29,7 +29,7 @@ O desafio foi construir este projeto por inteiro, incluindo o design e layout. O
 ### Links
 
 - URL da solução: [Index](https://github.com/beatrizslan/Projeto-Website-Coffee/blob/main/docs/index.html)
-- URL do site: [Site](https://beatrizslan.github.io/Projeto-Website-Coffee/)
+- URL do site: [Site](https://beatrizslan.github.io/Projeto-Autoral-Website-MochaFrap/)
 
 ## Meu processo
 
@@ -82,5 +82,5 @@ body {
 
 ### Autor
 
-- Website - [Beatriz Slan](https://beatrizslan.github.io/Projeto-Website-Coffee/)
+- Website - [Beatriz Slan](https://beatrizslan.github.io/Projeto-Autoral-Website-MochaFrap/)
 - Linkedin - [in/beatriz-slan](https://www.linkedin.com/in/beatriz-slan-2324a4173/)
