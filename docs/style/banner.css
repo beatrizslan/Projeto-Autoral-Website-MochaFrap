@@ -3,72 +3,18 @@
     box-shadow: 2px 2px 3px var(--cor-sombra);
 }
 
-.banner-texto {
-    background: var(--cor-branco-transparente-1);
-    text-align: center;
-    line-height: 1.5;
-    letter-spacing: 1px;
-    font-style: italic;
-    padding: 0.5em;
-    margin-top: 2em;
-}
-
-.banner__responsivo, .banner-imagem-desktop {
+.banner-imagem-desktop {
     display: none;
 }
 
 
-/*TABLETS*/
-@media screen and (min-width: 800px) {
+/*RESPONSIVO*/
+@media screen and (min-width: 720px) {
     .banner {
         background: var(--cor-branco-transparente-1);
         display: flex;
     }
 
-    .banner-imagem {
-        width: 60%;
-    }
-
-    .banner-texto, .banner__responsivo-texto-desktop {
-        display: none;
-    }
-
-    .banner__responsivo {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        gap: 1em;
-        text-align: justify;
-        padding: 1em;
-    }
-
-    .banner__responsivo-texto {
-        line-height: 1.5;
-        font-size: 18px;
-    }
-
-    .banner__responsivo-botao {
-        align-self: flex-end;
-        text-align: center;
-        text-decoration: none;
-        font-size: 18px;
-        background-color: var(--cor-botao);
-        border: 1px solid var(--cor-branco-transparente-2);
-        box-shadow: 2px 2px 3px var(--cor-sombra);
-        color: var(--cor-branco);
-        padding: 0.3em 2em;
-        width: 100px;
-    }
-
-    .banner__responsivo-botao:hover {
-        background-color: var(--cor-botao-hover);
-        color: var(--cor-branco);
-    }
-
-}
-
-/*DESKTOP*/
-@media screen and (min-width: 1024px) {
     .banner-imagem {
         width: 50%;
     }
@@ -77,9 +23,5 @@
         display: block;
         width: 50%;
         box-shadow: 2px 2px 3px var(--cor-sombra);
-    }
-
-    .banner__responsivo {
-        display: none;
     }
 }

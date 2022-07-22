@@ -7,24 +7,28 @@
 .escrito__titulo {
     font-size: 18px;
     font-weight: 700;
-    letter-spacing: 1px;
     line-height: 1.5;
 }
 
 .escrito__texto {
-    letter-spacing: 1px;
     line-height: 1.5;
 }
 
 .contato__email {
-    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem 0;
+}
+
+.contato__input {
+    background-color: var(--cor-branco-transparente-1);
     border: 1px solid var(--cor-branco-transparente-2);
     width: 80%;
     padding: 1em;
     margin-top: 1em;
 }
 
-.contato__email::placeholder {
+.contato__input::placeholder {
     font-family: var(--fonte-principal);
     background: url(../img/Email.svg);
     background-repeat: no-repeat;
@@ -35,7 +39,7 @@
 }
 
 /*TABLETS*/
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 720px) {
     .contato {
         display: flex;
         align-items: center;
@@ -56,6 +60,10 @@
         font-size: 16px;
         width: 40%;
         margin-top: 0;
+    }
+
+    .contato__label {
+        display: none;
     }
 }
 

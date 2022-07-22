@@ -1,15 +1,15 @@
 .produto {
-    margin: 2em 0;
-    padding: 2em 0;
+    margin: 2rem 0;
+    padding: 2rem 0;
     border-top: 1px solid var(--cor-branco-transparente-2);
     border-bottom: 1px solid var(--cor-branco-transparente-2);
     text-align: center;
 }
 
 .produto__titulo {
+    color: var(--cor-branco);
     font-size: 18px;
     font-weight: 700;
-    letter-spacing: 1px;
 }
 
 .produto__icones {
@@ -19,18 +19,24 @@
 }
 
 .icones__link {
-    padding: 2em 0;
+    padding: 2rem 0;
     text-decoration: none;
 }
 
 .icones__link-icone {
-    width: 13vw;
+    width: 60px;
 }
 
 .icones__link-icone:hover {
     -moz-transform: scale(1.1);
   	-webkit-transform: scale(1.1);
   	transform: scale(1.1);
+}
+
+.icones__link-texto {
+    color: var(--cor-branco);
+    font-size: 14px;
+    padding: 1em 0;
 }
 
 .icones__link-imagem {
@@ -42,13 +48,6 @@
     -moz-transform: scale(1.1);
   	-webkit-transform: scale(1.1);
   	transform: scale(1.1);
-}
-
-.icones__link-texto {
-    color: var(--cor-preto);
-    font-size: 14px;
-    letter-spacing: 1px;
-    padding: 1em 0;
 }
 
 .produto__botao {
@@ -65,22 +64,19 @@
     color: var(--cor-branco);
 }
 
-.produto__texto-desktop {
-    display: none;
-}
-
 /*TABLETS*/
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 720px) {
     .produto__titulo {
-        font-size: 20px;
+        font-size: 30px;
     }
 
     .icones__link-icone {
-        width: 8vw;
+        width: 70px;
     }
 
     .icones__link-texto {
         font-size: 16px;
+
     }
 
     .produto__botao {
@@ -91,68 +87,25 @@
 /*DESKTOP*/
 @media screen and (min-width: 1024px) {
 
-    .produto {
-        border-top: none;
-    }
-
-    .desktop {
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-    }
-
-    .produto__titulo-desktop {
-        display: none;
-    }
-
-    .produto__titulo-desktop-02 {
-        font-size: 24px;
-    }
-
-    .produto__texto-desktop {
-        display: block;
-        background: var(--cor-branco-transparente-1);
-        padding: 1em;
-        width: 45%;
-    }
-
-    .texto-desktop {
-        text-align: justify;
-        font-size: 20px;
-        line-height: 1.5;
-        padding: 0.5em;
-    }
-
-    .texto-desktop strong {
-        font-weight: 700;
-        color: var(--cor-verde);
-    }
-
-    .texto-desktop em {
-        font-style: italic;
-    }
-
-    .produto__icones-desktop {
-        display: flex;
-        flex-direction: column;
+    .produto__titulo {
+        font-size: 40px;
+        padding-bottom: 1rem;
     }
 
     .icones__link-icone {
-        width: 5vw;
+        width: 80px;
         padding: 0 3em;
-    }
-
-    .icones__link-imagem {
-        width: 25vw;
     }
 
     .icones__link-texto {
         font-size: 18px;
     }
 
+    .icones__link-imagem {
+        width: 25vw;
+    }
+
     .produto__botao {
         font-size: 20px;
-        padding: 0.6em 6em;
-        align-self: center;
     }
 }
