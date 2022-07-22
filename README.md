@@ -42,6 +42,7 @@ O desafio foi construir este projeto por inteiro, incluindo o design e layout. O
 
 - HTML5 com tags semânticas;
 - Propriedades personalizadas de CSS;
+- Acessibilidade;
 - Flexbox;
 - Media-queries;
 - Mobile first.
@@ -50,6 +51,7 @@ O desafio foi construir este projeto por inteiro, incluindo o design e layout. O
 
 - Linkar fontes externas;
 - Utilizar variáveis no CSS;
+- Acessibilidade web;
 - Trabalhar com o flexbox;
 - Desenvolver uma página responsiva, com mobile first.
 
